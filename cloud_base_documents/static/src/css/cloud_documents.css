@@ -1,0 +1,10 @@
+.cloud_downloadable_docs {
+    color:#dddddd;
+    margin-left:2px;
+}
+.cloud_link_docs {
+    cursor:pointer;
+}
+.cloud_link_docs:hover {
+    color: white;
+}

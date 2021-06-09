@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_wc_control_type" model="ir.ui.view">
+        <field name="name">wc.control.type</field>
+        <field name="model">mrp.workcenter</field>
+        <field name="inherit_id" ref="mrp.mrp_workcenter_view"/>
+        <field name="priority">4</field>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='oee_target']/.." position="after">
+                <field name="control_type" />
+                <field name="worker_type" />
+                <field name="efficiency_mode" />
+                <field name="concurrency" />
+            </xpath>
+        </field>
+    </record>
+        
+</odoo>
