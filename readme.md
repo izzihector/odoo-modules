@@ -1,10 +1,11 @@
 # RDS Moulding Technology S.p.A. Odoo Modules
 
 This repository contains Odoo 13.0 modules for exclusive use of RDS Moulding Technology S.p.A.
+All modules, except third party modules, are (c) of RDS Moulding Technology S.p.A.
 
 ## Module List
 ### cloud_base, cloud_base_documents, onedrive
-These modules have been acquired from the third-party faOtools and bought from the odoo App Store. Refear to its app store page for documentation. https://apps.odoo.com/apps/modules/13.0/cloud_base/
+**Third Party** Made by faOtools and bought from the odoo App Store. Refear to its app store page for documentation. https://apps.odoo.com/apps/modules/13.0/cloud_base/
 
 ### account_budget_partner
 Simply adds a partner_id fields to crossovered.budget.lines for enabling partner-based budgeting.
